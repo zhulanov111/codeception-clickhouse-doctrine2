@@ -1,0 +1,15 @@
+{
+    "name": "zhulanov111/codeception-clickhouse-doctrine2",
+    "description": "Codeception module for Doctrine2, when used Clickhouse driver",
+    "version": "dev-master",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.10",
+        "nesbot/carbon": "^2.46"
+    },
+    "autoload":{
+        "psr-4": {
+            "Zhulanov111\\CodeceptionClickhouseDoctrine2\\": "src/"
+        }
+    }
+}
